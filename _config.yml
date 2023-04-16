@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ML Journey"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+title                    : "Journey"
+title_separator          : "- ML"
+subtitle                 :  #"by Santosh Kumar" # site tagline that appears below site title in masthead
 name                     : "ML Journey by Santosh"
-description              : "Personal Blog by Santosh Kumar"
+description              : "Machine learning Blog by Santosh Kumar"
 url                      : "https://kumarsantosh04.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "kumarsantosh04/kumarsantosh04.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -266,6 +266,14 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  demos:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -283,6 +291,9 @@ defaults:
       toc: true
       toc_label: "Contents"
       toc_icon: "cog"
+      toc_sticky: true
+      header:
+        og_image: /assets/images/logo.jpg
   # _pages
   - scope:
       path: "_pages"
@@ -290,3 +301,21 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _demos
+  - scope:
+      path: ""
+      type: demos
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
