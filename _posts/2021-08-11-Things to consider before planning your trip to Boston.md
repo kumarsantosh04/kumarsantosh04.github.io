@@ -1,7 +1,7 @@
 ---
 title: "Things to consider before planning your trip to Boston."
 date: 2021-08-11
-last_modified_at: 2021-06-07 08:48:05 -0400
+last_modified_at: 2021-08-11 08:48:05 -0400
 excerpt: "Data analysis of Airbnb listings in Boston using the CRISP-DM process."
 categories:
   - Data Analysis
@@ -72,7 +72,7 @@ Boston has <b>25 neighborhoods</b>, and as expected listings are not distributed
 
 We can clearly see that there is a concentration of listings in Back Bay and South End. The color of the neighborhood is encoded with the listings count in that neighborhood. Using that we can see that <b>Jamaica Plain(343), South End(326), Back Bay(302)</b> are among the top three in listings count.
 
-{% include figure image_path="/assets/images/Things-to-consider-before-planning-your-trip-to-Boston/1.property-type.PNG" alt="No. of listings in each property type" caption=" No. of listings in each property type" %}
+{% include figure image_path="/assets/images/Things-to-consider-before-planning-your-trip-to-Boston/1.property-type.png" alt="No. of listings in each property type" caption=" No. of listings in each property type" %}
 
 
 Coming to the type of the room offered, from map we can see a lot of blue dots, i.e. <b>entire room/apartment is one of the prominent offerings (2127)</b>, the second is Private room(1378) and lastly shared room(80). With respect to property type Apartment(over 2500 listings) is at first, then house(over 500) and then condo, town house, bed & breakfast and so on.
