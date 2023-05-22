@@ -6,3 +6,11 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.site-title {
+    font-family: URW Chancery L, cursive ;
+}
+
+.masthead__menu-item {
+    font-family: sans-serif;
+}
