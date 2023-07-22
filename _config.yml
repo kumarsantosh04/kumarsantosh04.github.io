@@ -1,17 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
-# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
-
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -23,7 +9,7 @@ name                     : "Journey by Santosh"
 description              : "Machine learning Blog by Santosh Kumar"
 url                      : "https://kumarsantosh04.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "kumarsantosh04/kumarsantosh04.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "kumarsantosh04/kumarsantosh04.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -171,8 +157,8 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - /docs
+  - /test
 keep_files:
   - .git
   - .svn
@@ -198,6 +184,9 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
 
 
 # Sass/SCSS
@@ -283,12 +272,12 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
       related: true
-      toc: true
+      toc: false
       toc_label: "Contents"
       toc_icon: "cog"
       toc_sticky: true
@@ -300,14 +289,14 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _projects
   - scope:
       path: ""
       type: projects
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true
   # _demos
@@ -316,6 +305,6 @@ defaults:
       type: demos
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
       comments: true

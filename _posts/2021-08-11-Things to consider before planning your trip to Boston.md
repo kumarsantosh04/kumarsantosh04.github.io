@@ -3,6 +3,7 @@ title: "Things to consider before planning your trip to Boston."
 date: 2021-08-11
 last_modified_at: 2021-08-11 08:48:05 -0400
 excerpt: "Data analysis of Airbnb listings in Boston using the CRISP-DM process."
+toc: true
 categories:
   - Data Analysis
 tags:
