@@ -1,5 +1,5 @@
 <head>
- <style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1689872");</style>
+<style type="text/css">@import url("https://assets.mlcdn.com/fonts.css?version=1689872");</style>
     <style type="text/css">
     /* LOADER */
     .ml-form-embedSubmitLoad {
@@ -61,7 +61,7 @@
         letter-spacing: normal !important;
       }
       #mlb2-6485129.ml-form-embedContainer .ml-form-embedWrapper {
-        background-color: #f6f6f6;
+        background-color: #f3f3f3;
         
         border-width: 0px;
         border-color: transparent;
@@ -914,4 +914,4 @@
         <script>
             fetch("https://assets.mailerlite.com/jsonp/522639/forms/94558017474791049/track-view")
         </script>
- </head>
+</head>
