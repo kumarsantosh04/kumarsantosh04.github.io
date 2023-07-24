@@ -16,7 +16,7 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <author>{{ site.author.name  }}</author>
         <media:group>
-          <media:content medium="image" url="{{ site.url}}{{ post.header.overlay_image}}" height="619" width="1100" type="image/jpeg"/>
+          <media:content medium="image" url="{{ site.url}}{{ post.header.overlay_image}}" type="image/jpeg"/>
         </media:group>
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
