@@ -15,7 +15,7 @@ layout: null
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <author>{{ site.author.name  }}</author>
-        <media>{{ post.header.overlay_image}}</media>
+        <media>{{ site.url}}{{ post.header.overlay_image}}</media>
         <media url="{{ site.url}}{{ post.header.overlay_image}}" src="{{ site.url}}{{ post.header.overlay_image}}" href="{{ site.url}}{{ post.header.overlay_image}}" medium="image">{{ site.url}}{{ post.header.overlay_image}}</media>
         <description><img src="{{ site.url}}{{ post.header.overlay_image}}"></img>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
