@@ -484,4 +484,4 @@ In this article, we have developed pyspark model for customer churn prediction i
 - <b>Pyspark ML</b> is a very powerful tool for machine learning. It provides all the model, feature transformation we can use for various types of problem statements. Like sklearn, we can build pipelines here and do cross-validation. Thus, it <b>provides an end-to-end model development lifecycle in a distributed way.</b> This can be particularly useful if we have 100s of gigabytes of data.
 
 Please find the link to the github repo <a href="https://github.com/kumarsantosh04/data-science-capstone-project" target="_blank">here.</a> 
-<div class="ml-embedded" data-form="KmbTUm"></div>
+ {% include mailerlite %}

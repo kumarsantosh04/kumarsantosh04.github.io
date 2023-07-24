@@ -165,4 +165,5 @@ In this article, we have cover five questions about the Airbnb listings in Bosto
   3. In general September and October months are costlier in Boston with some neighborhood listing prices go up by ~ 100$. Hyde Park and Mattapan is some of budget-friendly neighborhoods to stay while Bay Village and Leather District are among the costliest neighborhoods. The price of listings also changes with weekday, with Friday and Saturday priced Higher.
   4. Kitchen, Heating, Internet, Air conditioning, TV are some common amenities offered in Boston listings and on average you have to pay 64$ more for getting all the top 10 common amenities. Washer/Dryer, pet allowance, hot tub are among rare amenities.
   5. Brighton, Fenway and Dorchester are witnessing a surge in new listings in the past 90 days. While Longwood Medical Area has doubled its listing count. Among these increases, shared rooms are most common.
-  <div class="ml-embedded" data-form="KmbTUm"></div>
+
+ {% include mailerlite %}
