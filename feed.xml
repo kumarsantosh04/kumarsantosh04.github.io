@@ -16,6 +16,7 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <author>{{ site.author.name  }}</author>
         <media><img src="{{ site.url}}{{ post.header.overlay_image}}"/></media>
+        <content><img src="{{ site.url}}{{ post.header.overlay_image}}"/></content>
         <description><img src="{{ site.url}}{{ post.header.overlay_image}}"></img>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
