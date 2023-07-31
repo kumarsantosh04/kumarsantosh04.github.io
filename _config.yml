@@ -2,10 +2,10 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "JOURNEY"
+title                    : "DataMaze"
 title_separator          : ""
 subtitle                 : "" # site tagline that appears below site title in masthead
-name                     : "Journey by Santosh"
+name                     : "DataMaze by Santosh"
 description              : "Machine learning Blog by Santosh Kumar"
 url                      : "https://www.santoshkumar.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
